@@ -26,6 +26,9 @@ public class Carro {
     @Column(nullable = false)
     private boolean disponivel;
 
+    @Version
+    private int versao;
+
     public Carro(String modelo, Integer ano, String marca, String reservadoPara) {
         this.modelo = modelo;
         this.ano = ano;
@@ -43,6 +46,22 @@ public class Carro {
 
     public Long getId() {
         return id;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public Integer getAno() {
+        return ano;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public String getReservadoPara() {
+        return reservadoPara;
     }
 
     public boolean isDisponivel() {

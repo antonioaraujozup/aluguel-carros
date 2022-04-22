@@ -28,6 +28,6 @@ public class ReservarCarroController {
 
         carro.reservar(request.getReservadoPara());
 
-        return ResponseEntity.noContent().build();
+        return ResponseEntity.ok(new CarroResponse(carro));
     }
 }
