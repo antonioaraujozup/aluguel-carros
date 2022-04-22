@@ -1,7 +1,7 @@
 # Nosso Sistema de Aluguel de Carros
 
-API REST para reservar carros de uma locadora.
+API REST para reserva de carros em uma locadora.
 
 * Treino: `CRUD e Atualizações Concorrentes com JPA/Hibernate`
-* Seção: `Atualização concorrente de entidades usando Lock Pessimista`
+* Seção: `Atualizações concorrentes de entidades utilizando Lock Otimista`
 * Atividade: `Alugue um carro no seu sistema`
